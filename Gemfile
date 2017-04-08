@@ -18,9 +18,12 @@ group :development, :test do
   gem 'pry'
   gem 'pry-byebug'
   gem 'dotenv-rails'
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
 end
 
 group :development do
+  gem 'listen'
   gem 'better_errors' # more helpful errors
   gem 'web-console' # console on error page
 end
