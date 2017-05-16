@@ -15,7 +15,7 @@ gem 'rollbar'
 gem 'twilio-ruby'
 
 group :development, :test do
-  gem 'pry'
+  gem 'pry-rails'
   gem 'pry-byebug'
   gem 'dotenv-rails'
   gem 'rspec-rails'
